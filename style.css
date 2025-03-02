@@ -1,3 +1,17 @@
+/* Main */
 body {
+    color: white;
     background: url(image/stone.png);
+}
+
+a {
+    color: 	#1F51FF;
+}
+
+/* Changelog */
+.version {
+    color: lightgray;
+}
+.ver_des {
+    color: gray;
 }
