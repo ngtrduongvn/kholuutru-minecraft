@@ -1,8 +1,9 @@
-// Chặn F12, Ctrl + Shift + I/J/C
+// Chặn F12, Ctrl + Shift + I/J/C & Ctrl + U
 document.addEventListener("keydown", function (event) {
     if (
         event.key === "F12" || 
-        (event.ctrlKey && event.shiftKey && ["I", "J", "C"].includes(event.key))
+        (event.ctrlKey && event.shiftKey && ["I", "J", "C"].includes(event.key)) || 
+        (event.ctrlKey && event.key === "U") // Chặn Ctrl + U
     ) {
         event.preventDefault();
     }
@@ -32,3 +33,8 @@ setInterval(function () {
     }
     blockDevTools();
 })();
+
+// Chặn kéo thả hình ảnh
+document.addEventListener("dragstart", function(event) {
+    event.preventDefault();
+});
