@@ -19,6 +19,12 @@ img {
     display: block;
 }
 
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* ----- Sử dụng Flexbox cho bố cục linh hoạt ----- */
 .flex-container {
     display: flex;
