@@ -14,13 +14,13 @@
 
 /* ----- Hình ảnh responsive ----- */
 img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
 }
 
 video {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
 }
