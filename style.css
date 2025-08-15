@@ -1,12 +1,19 @@
 /* Main */
 body {
+    font-family: "Courier New";
     user-select: none;
     color: white;
     background: url(image/stone.png);
 }
 
+/* Linker */
 a {
     color: 	#1F51FF;
+    text-decoration: none;
+}
+a:hover {
+    color: 	#0096FF;
+    text-decoration: underline;
 }
 
 /* Changelog */
@@ -15,4 +22,24 @@ a {
 }
 .ver_des {
     color: gray;
+}
+
+/* Copyright */
+footer {
+    color: #58A0C8;
+}
+
+/* Donate */
+.donate-button {
+    background-color: #252525;
+    color: white;
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+    padding: 10px 20px;
+    border: 2px solid #247fbc;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.donate-button:hover {
+    background-color: #353535;
 }
