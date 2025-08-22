@@ -43,3 +43,15 @@ footer {
 .donate-button:hover {
     background-color: #353535;
 }
+
+
+
+
+/* Resource Pack */
+.rp-box {
+    padding: 20px;
+    background-color: black;
+    border: lightskyblue solid 3px;
+    width: 250px;
+    margin: auto;
+}
