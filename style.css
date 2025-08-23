@@ -6,6 +6,14 @@ body {
     background: url(image/stone.png);
 }
 
+/* Tab */
+.text-tab {
+    color: green;
+}
+.text-tab:hover {
+    color: rgb(0, 180, 0);
+}
+
 /* Linker */
 a {
     color: 	#1F51FF;
@@ -44,7 +52,13 @@ footer {
     background-color: #353535;
 }
 
-
+/* Thông báo */
+.thongbao {
+    color: lightgray;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
 
 
 /* Resource Pack */
