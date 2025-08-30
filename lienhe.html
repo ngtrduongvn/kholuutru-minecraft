@@ -8,27 +8,20 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/mobile.css">
-        <link rel="stylesheet" href="css/resourcepack/rp.css">
-        <link rel="stylesheet" href="css/title.css">
+        <link rel="stylesheet" href="css/contact/contact.css">
         <link rel="stylesheet" href="css/copyright.css">
-        <title>Resource Pack</title>
+        <title>Liên Hệ</title>
     </head>
 
     <body>
-    <center>
         <!-- Tiêu đề -->
-        <div class="rp-title">
-            <b>RESOURCE PACK</b> (1)
-        </div>
-
-        <!---- Ty-el's Vietnamese---->
-        <div class="pack">
-            <img src="image/resourcepack/ty-el_vietnamese.png" alt="Ty-el's Vietnamese">
-            <div class="pack-info">
-                <p>Ty-el's Vietnamese</p>
-                <small>By tlgm2308</small><br>
-                <a href="https://www.curseforge.com/minecraft-bedrock/texture-packs/the-ty-els-vietnamese-language-pack/files/5668551" target="_blank">Tải xuống</a>
-            </div>
+        <div class="contact-box">
+            <h2>LIÊN HỆ</h2>
+            <input type="text" id="name" placeholder="Họ và tên" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" rows="5" placeholder="Nội dung liên hệ..." required></textarea>
+            <button id="sendBtn">Gửi</button>
+            <p id="status"></p>
         </div>
 
         <!-- Bản quyền -->
@@ -39,5 +32,7 @@
         <!-- Javascript -->
         <script src="js/security.js"></script>
         <script src="js/background.js" defer></script>
+        <script src="js/contact.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     </body>
 </html>

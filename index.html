@@ -3,86 +3,70 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Trang web chuyên thu thập tài liệu cũ của Minecraft">
-        <meta name="google-site-verification" content="taQF88gZ_YWOSIvU3ffc0MlsISNOwYlTRaYgc3rOUPE" />
+        <meta name="description" content="Website lưu trữ addons, mods và tài nguyên Minecraft PE cho cộng đồng Việt Nam. Tải miễn phí và cập nhật thường xuyên.">
+        <meta name="keywords" content="minecraft, minecraft pe, addon, addons, kho lưu trữ minecraft, minecraft việt nam">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/index/tab-menu.css">
+        <link rel="stylesheet" href="css/index/notice-box.css">
+        <link rel="stylesheet" href="css/index/trailer-box.css">
+        <link rel="stylesheet" href="css/copyright.css">
+        <link rel="stylesheet" href="css/index/social-links.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <title>Kho lưu trữ Minecraft</title>
-        <style>
-            .videoFrame {
-                border: 7px outset #979797;
-                border-radius: 2px;
-            }
-
-            /* Linked */
-            .youtube-link {
-                color: #FF0000;
-            }
-            .discord-link {
-                color: #5865F2;
-            }
-            .youtube-link:hover, .discord-link:hover {
-                color: yellow;
-            }
-        </style>
     </head>
 
     <body>
-        <!-- Main -->
-        <center>
-            <br>
-            <!-- Linked -->
-            <img src="image/text.png">
-            <a class="youtube-link" target="_blank" href="https://www.youtube.com/@">YouTube</a>
-            <a class="discord-link" target="_blank" href="https://discord.gg/rtwfVZFjAE">Discord</a>
-            <br><br>
+    <center>
+        <br>
+        <!-- Logo -->
+        <img src="image/logo.png" width="500">
+        <br><br>
 
-            <!-- Menu -->
-            <div class="tab">
-                <b>[</b>
-                <a class="text-tab" href="minecraft.html">Tải Minecraft</a>
-                <b>/</b>
-                <a class="text-tab" href="mods.html">Mods</a>
-                <b>/</b>
-                <a class="text-tab" href="resourcepack.html">Resource Pack</a>
-                <b>/</b>
-                <a class="text-tab" href="serverlist.html">Server List</a>
-                <b>/</b>
-                <a class="text-tab" href="faq.html">FAQ</a>
-                <b>/</b>
-                <a class="text-tab" href="changelog.html">Changelog</a>
-                <b>/</b>
-                <a class="text-tab" href="donate.html">Donate</a>
-                <b>]</b>
-            </div>
-            
-            <br><br>
-            <!-- Thông báo -->
-            <font size="4" color="red"><u><b>THÔNG BÁO</b></u></font><br>
-            <small><u>23/8/2025</u>:</small><br>
-            <div class="thongbao">
-                <p>Ban đầu mình có nói web sẽ không có quảng cáo, nhưng sau khi duy trì một thời gian thì thấy chi phí bắt đầu đội lên. Để web có thể sống lâu dài và update thường xuyên cho anh em, mình đã thêm một chút quảng cáo nhẹ.</p>
-                <p>👉 Yên tâm là không có vượt link. Quảng cáo chỉ nằm gọn gàng ở trang thôi, không làm ảnh hưởng trải nghiệm.</p>
-                <p>Mong anh em thông cảm và tiếp tục ủng hộ để web ngày càng phát triển hơn. Ai muốn ủng hộ thêm thì có thể Donate qua link chính thức, còn không thì chỉ cần ghé web thường xuyên cũng đã quá quý rồi ❤️.</p>
-            </div>
-            
-            <br><br>
-            <!-- Trình phát video -->
-            <video class="videoFrame" width="560" height="320" controls>
+        <!-- Social Links -->
+        <div class="social-links">
+            <a href="https://www.youtube.com/@ngtrduongvn" target="_blank" class="youtube">
+                <i class="fab fa-youtube"></i> YouTube
+            </a>
+            <a href="https://discord.gg/rtwfVZFjAE" target="_blank" class="discord">
+                <i class="fab fa-discord"></i> Discord
+            </a>
+        </div>
+        <br>
+
+        <!-- tab menu -->
+        <button class="mc-btn"><a href="minecraft.html">Tải Minecraft</a></button>
+        <button class="mc-btn"><a href="addons.html">Addons</a></button>
+        <button class="mc-btn"><a href="resourcepack.html">Resource Pack</a></button>
+        <button class="mc-btn"><a href="faq.html">FAQ</a></button>
+        <button class="mc-btn"><a href="changelog.html">Changelog</a></button>
+        <button class="mc-btn"><a href="donate.html">Donate</a></button>
+        <button class="mc-btn"><a href="lienhe.html">Liên hệ</a></button>
+
+        <!-- Thông báo -->
+        <div class="notice-box">
+            <h2>THÔNG BÁO</h2>
+            <p><b><u>27/8/25</u></b></p>
+            <p>Chào mừng đến với kỉ nguyên mới của Kho Lưu Trữ Minecraft!</p>
+        </div>
+
+        <!-- Minecraft Trailer -->
+        <div class="trailer-box">
+            <video controls>
                 <source src="video/minecraft-trailer.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ video.
             </video>
-        
-            <br><br>
-            <!-- Bản quyền -->
-            <footer><b>&copy; 2025 Trang web được tạo bởi ngtrduongvn</b></footer>
-            <br><br><br><br>
-        </center>
+        </div>
+        <br><br>
+    
+        <!-- Bản quyền -->
+        <div class="copyright">
+            © 2025 Trang web được tạo bởi <a>ngtrduongvn</a>
+        </div>
 
         <!-- Javascript -->
         <script src="js/security.js"></script>
-
-        <!-- Google AdSense -->
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9780379961023898" crossorigin="anonymous"></script>
+        <script src="js/background.js" defer></script>
     </body>
 </html>

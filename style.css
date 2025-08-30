@@ -1,40 +1,14 @@
 /* Main */
 body {
-    font-family: "Tahoma";
+    font-family: "Arial";
     user-select: none;
     color: white;
-    background: url(image/stone.png);
+    /* background: url(image/background-test-6.jpg) no-repeat center center fixed; */
+    /* background-size: cover; */
 }
 
-/* Tab */
-.text-tab {
-    color: green;
-}
-.text-tab:hover {
-    color: rgb(0, 180, 0);
-}
-
-/* Linker */
 a {
-    color: 	#1F51FF;
     text-decoration: none;
-}
-a:hover {
-    color: 	#0096FF;
-    text-decoration: underline;
-}
-
-/* Changelog */
-.version {
-    color: lightgray;
-}
-.ver_des {
-    color: gray;
-}
-
-/* Copyright */
-footer {
-    color: #58A0C8;
 }
 
 /* Donate */
@@ -52,20 +26,13 @@ footer {
     background-color: #353535;
 }
 
-/* Thông báo */
-.thongbao {
-    color: lightgray;
-    max-width: 1000px;
-    margin: 0 auto;
-    line-height: 1.6;
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* video phủ toàn màn hình */
+  z-index: -1;       /* cho nội dung nằm trên video */
 }
 
-
-/* Resource Pack */
-.rp-box {
-    padding: 20px;
-    background-color: black;
-    border: lightskyblue solid 3px;
-    width: 250px;
-    margin: auto;
-}
