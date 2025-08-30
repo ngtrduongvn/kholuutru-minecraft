@@ -1,0 +1,25 @@
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 10px;
+  border: black solid 2px;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+.social-links a.youtube {
+  color: white;
+  background: #FF0000;
+}
+
+.social-links a.discord {
+  color: white;
+  background: #5865F2;
+}
+
+.social-links a:hover {
+  opacity: 0.8;
+}
