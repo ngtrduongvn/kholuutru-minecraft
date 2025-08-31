@@ -3,36 +3,13 @@ body {
     font-family: "Arial";
     user-select: none;
     color: white;
-    /* background: url(image/background-test-6.jpg) no-repeat center center fixed; */
-    /* background-size: cover; */
+    background: url(image/background/bg-4.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 a {
     text-decoration: none;
 }
 
-/* Donate */
-.donate-button {
-    background-color: #252525;
-    color: white;
-    font-size: 18px;
-    font-family: "Comic Sans MS";
-    padding: 10px 20px;
-    border: 2px solid #247fbc;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.donate-button:hover {
-    background-color: #353535;
-}
 
-#bg-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* video phủ toàn màn hình */
-  z-index: -1;       /* cho nội dung nằm trên video */
-}
 

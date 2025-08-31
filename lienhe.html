@@ -17,11 +17,12 @@
         <!-- Tiêu đề -->
         <div class="contact-box">
             <h2>LIÊN HỆ</h2>
-            <input type="text" id="name" placeholder="Họ và tên" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <textarea id="message" rows="5" placeholder="Nội dung liên hệ..." required></textarea>
-            <button id="sendBtn">Gửi</button>
-            <p id="status"></p>
+            <form action="https://formspree.io/f/mrbaejjy" method="POST">
+                <input type="text" name="name" placeholder="Họ và tên" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" rows="4" placeholder="Nội dung liên hệ..." required></textarea>
+                <button type="submit">Gửi</button> 
+            </form>
         </div>
 
         <!-- Bản quyền -->
@@ -31,7 +32,6 @@
 
         <!-- Javascript -->
         <script src="js/security.js"></script>
-        <script src="js/background.js" defer></script>
         <script src="js/contact.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     </body>

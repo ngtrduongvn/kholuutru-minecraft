@@ -1,0 +1,29 @@
+.changelog-entry {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #3a3a3a;
+  padding: 15px;
+  margin: 20px auto;
+  width: 70%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.changelog-entry h3 {
+  color: #00ff88;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.changelog-entry ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.changelog-entry ul li {
+  margin: 5px 0;
+  color: #ddd;
+}
+
+
+.changelog-entry:hover {
+  background: rgba(30, 30, 30, 0.8);
+  transform: scale(1.02);
+  transition: 0.2s;
+}
